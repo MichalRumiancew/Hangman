@@ -1,11 +1,11 @@
 import random
 
 #powitanie
-print('Witaj w swiecie wisielca, podaj swoj nick: ')
+print('Czesc, podaj swoje imie: ')
 pseudonim = input()
 
 #lista hasel
-lista = ['sekret','tunczyk','brokul','kicia','James']
+lista = ['Michał','tata', 'slowo']
 
 #haslo
 haslo = str(lista[random.randint(0,len(lista)-1)])
