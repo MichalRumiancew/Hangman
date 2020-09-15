@@ -2,7 +2,7 @@ import random
 
 #powitanie
 print('Czesc, podaj swoje imie: ')
-pseudonim = input()
+imie = input()
 
 #lista hasel
 lista = ['Michał','tata', 'slowo']
@@ -21,7 +21,7 @@ zycia = 6
 #petla while, w ktorej bedzie realizowana gra
 while zycia > 0:
     print('')
-    print(pseudonim, ' pozostalo ci ', zycia, ' zyc')
+    print(imie, ' pozostalo ci ', zycia, ' zyc')
     print('')
     print(' '.join(tablica))
     print(' ')
@@ -40,11 +40,11 @@ while zycia > 0:
         #czy udalo sie odgadnac caly wyraz
         if ''.join(map(str,tablica)) == haslo:
             print('')
-            print(pseudonim, ' pozostalo ci ', zycia, ' zyc')
+            print(imie, ' pozostalo ci ', zycia, ' zyc')
             print('')
             print(' '.join(tablica))
             print(' ')
-            print(pseudonim, ' wygrales!')
+            print(imie, ' wygrales!')
             break
     #nie udalo sie
     else:
